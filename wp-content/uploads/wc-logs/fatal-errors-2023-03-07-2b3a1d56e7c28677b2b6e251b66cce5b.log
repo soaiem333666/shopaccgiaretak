@@ -1,0 +1,11 @@
+2023-03-07T01:46:41+00:00 CRITICAL Uncaught Error: Call to undefined method WPMailSMTP\Core::get_utm_url() in /Applications/MAMP/htdocs/game/wp-content/plugins/wp-mail-smtp/src/Providers/SMTP/Options.php:42
+Stack trace:
+#0 /Applications/MAMP/htdocs/game/wp-content/plugins/wp-mail-smtp/src/Providers/Loader.php(193): WPMailSMTP\Providers\SMTP\Options->__construct(NULL)
+#1 /Applications/MAMP/htdocs/game/wp-content/plugins/wp-mail-smtp/src/Providers/Loader.php(98): WPMailSMTP\Providers\Loader->get_entity('smtp', 'Options', Array)
+#2 /Applications/MAMP/htdocs/game/wp-content/plugins/wp-mail-smtp/src/MailCatcherV6.php(93): WPMailSMTP\Providers\Loader->get_options('smtp')
+#3 /Applications/MAMP/htdocs/game/wp-includes/pluggable.php(542): WPMailSMTP\MailCatcherV6->send()
+#4 /Applications/MAMP/htdocs/game/wp-admin/includes/class-wp-automatic-updater.php(1294): wp_mail(Array, '[Shop Li\xC3\xAAn Min...', 'Plugin kh\xC3\xB4ng t...', Array)
+#5 /Applications/MAMP/htdocs/game/wp-admin/includes/class-wp-automatic-updater.php(981): WP_Automatic_Updater->send_pl in /Applications/MAMP/htdocs/game/wp-content/plugins/wp-mail-smtp/src/Providers/SMTP/Options.php on line 42
+
+2023-03-07T09:29:45+00:00 CRITICAL syntax error, unexpected end of file in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php on line 376
+

@@ -1,0 +1,54 @@
+2023-03-14T01:25:39+00:00 CRITICAL syntax error, unexpected end of file in /home/quyenman/public_html/wp-content/themes/flatsome/nap-the.php on line 174
+
+2023-03-14T01:25:44+00:00 CRITICAL syntax error, unexpected end of file in /home/quyenman/public_html/wp-content/themes/flatsome/nap-the.php on line 174
+
+2023-03-14T01:27:34+00:00 CRITICAL syntax error, unexpected end of file in /home/quyenman/public_html/wp-content/themes/flatsome/nap-the.php on line 174
+
+2023-03-14T01:27:45+00:00 CRITICAL syntax error, unexpected end of file in /home/quyenman/public_html/wp-content/themes/flatsome/nap-the.php on line 174
+
+2023-03-14T02:28:49+00:00 CRITICAL Uncaught Error: Call to undefined function WC_Wallet() in /home/quyenman/public_html/wp-content/plugins/my-payment-gateway/my-payment-gateway.php:41
+Stack trace:
+#0 /home/quyenman/public_html/wp-content/themes/LongAnWeb/functions.php(431): get_wallet_transactions(Array)
+#1 /home/quyenman/public_html/wp-includes/shortcodes.php(355): wallet_transactions_top_users_shortcode('', '', 'wallet_credit_t...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /home/quyenman/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(wallet...', 'do_shortcode_ta...', '\n[wallet_credit...')
+#4 /home/quyenman/public_html/wp-content/themes/flatsome/inc/helpers/helpers-shortcode.php(203): do_shortcode('\n[wallet_credit...')
+#5 /home/quyenman/public_html/wp-content/themes/flatsome/inc/shortcodes/row.php(208): flatsome_contentfix('\n[wallet_credit...')
+#6 /home/quyenman/public_html/wp-includes/shortcodes.php(355): ux_col(Array, '\n[wallet_credit...', 'col')
+#7 [internal function]: do_shortcode_tag(Array)
+# in /home/quyenman/public_html/wp-content/plugins/my-payment-gateway/my-payment-gateway.php on line 41
+
+2023-03-14T02:29:04+00:00 CRITICAL Uncaught Error: Call to undefined function WC_Wallet() in /home/quyenman/public_html/wp-content/plugins/my-payment-gateway/my-payment-gateway.php:41
+Stack trace:
+#0 /home/quyenman/public_html/wp-content/themes/LongAnWeb/functions.php(431): get_wallet_transactions(Array)
+#1 /home/quyenman/public_html/wp-includes/shortcodes.php(355): wallet_transactions_top_users_shortcode('', '', 'wallet_credit_t...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /home/quyenman/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(wallet...', 'do_shortcode_ta...', '\n[wallet_credit...')
+#4 /home/quyenman/public_html/wp-content/themes/flatsome/inc/helpers/helpers-shortcode.php(203): do_shortcode('\n[wallet_credit...')
+#5 /home/quyenman/public_html/wp-content/themes/flatsome/inc/shortcodes/row.php(208): flatsome_contentfix('\n[wallet_credit...')
+#6 /home/quyenman/public_html/wp-includes/shortcodes.php(355): ux_col(Array, '\n[wallet_credit...', 'col')
+#7 [internal function]: do_shortcode_tag(Array)
+# in /home/quyenman/public_html/wp-content/plugins/my-payment-gateway/my-payment-gateway.php on line 41
+
+2023-03-14T02:29:25+00:00 CRITICAL Uncaught Error: Call to undefined function WC_Wallet() in /home/quyenman/public_html/wp-content/plugins/my-payment-gateway/my-payment-gateway.php:41
+Stack trace:
+#0 /home/quyenman/public_html/wp-content/themes/LongAnWeb/functions.php(431): get_wallet_transactions(Array)
+#1 /home/quyenman/public_html/wp-includes/shortcodes.php(355): wallet_transactions_top_users_shortcode('', '', 'wallet_credit_t...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /home/quyenman/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(wallet...', 'do_shortcode_ta...', '\n[wallet_credit...')
+#4 /home/quyenman/public_html/wp-content/themes/flatsome/inc/helpers/helpers-shortcode.php(203): do_shortcode('\n[wallet_credit...')
+#5 /home/quyenman/public_html/wp-content/themes/flatsome/inc/shortcodes/row.php(208): flatsome_contentfix('\n[wallet_credit...')
+#6 /home/quyenman/public_html/wp-includes/shortcodes.php(355): ux_col(Array, '\n[wallet_credit...', 'col')
+#7 [internal function]: do_shortcode_tag(Array)
+# in /home/quyenman/public_html/wp-content/plugins/my-payment-gateway/my-payment-gateway.php on line 41
+
+2023-03-14T03:10:05+00:00 CRITICAL syntax error, unexpected ' ' (T_STRING), expecting case (T_CASE) or default (T_DEFAULT) or '}' in /home/quyenman/public_html/wp-content/themes/LongAnWeb/functions.php on line 376
+
+2023-03-14T03:10:06+00:00 CRITICAL syntax error, unexpected ' ' (T_STRING), expecting case (T_CASE) or default (T_DEFAULT) or '}' in /home/quyenman/public_html/wp-content/themes/LongAnWeb/functions.php on line 376
+
+2023-03-14T03:10:57+00:00 CRITICAL syntax error, unexpected ' ' (T_STRING), expecting case (T_CASE) or default (T_DEFAULT) or '}' in /home/quyenman/public_html/wp-content/themes/LongAnWeb/functions.php on line 376
+
+2023-03-14T03:18:06+00:00 CRITICAL Cannot redeclare add_my_currency() (previously declared in /home/quyenman/public_html/wp-content/themes/LongAnWeb/functions.php:366) in /home/quyenman/public_html/wp-content/themes/LongAnWeb/functions.php on line 385
+
+2023-03-14T03:20:16+00:00 CRITICAL syntax error, unexpected ' ' (T_STRING) in /home/quyenman/public_html/wp-content/themes/LongAnWeb/functions.php on line 388
+

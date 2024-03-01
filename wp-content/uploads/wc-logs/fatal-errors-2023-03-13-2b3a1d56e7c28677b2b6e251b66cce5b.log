@@ -1,0 +1,24 @@
+2023-03-13T10:15:03+00:00 CRITICAL syntax error, unexpected ' ' (T_STRING) in /home/quyenman/public_html/wp-content/themes/flatsome/nap-the.php on line 57
+
+2023-03-13T10:16:24+00:00 CRITICAL syntax error, unexpected ' ' (T_STRING) in /home/quyenman/public_html/wp-content/themes/flatsome/nap-the.php on line 57
+
+2023-03-13T10:17:24+00:00 CRITICAL syntax error, unexpected ' ' (T_STRING) in /home/quyenman/public_html/wp-content/themes/flatsome/nap-the.php on line 57
+
+2023-03-13T10:18:06+00:00 CRITICAL syntax error, unexpected ' ' (T_STRING) in /home/quyenman/public_html/wp-content/themes/flatsome/nap-the.php on line 57
+
+2023-03-13T15:35:39+00:00 CRITICAL Uncaught Error: Call to undefined function add_transaction_to_wallet() in /home/quyenman/public_html/wp-content/themes/flatsome/nap-the.php:62
+Stack trace:
+#0 /home/quyenman/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/quyenman/public_html/wp-blog-header.php(19): require_once('/home/quyenman/...')
+#2 /home/quyenman/public_html/index.php(17): require('/home/quyenman/...')
+#3 {main}
+  thrown in /home/quyenman/public_html/wp-content/themes/flatsome/nap-the.php on line 62
+
+2023-03-13T16:09:40+00:00 CRITICAL Uncaught Error: Call to undefined function WC_WooWallet() in /home/quyenman/public_html/wp-content/themes/flatsome/nap-the.php:77
+Stack trace:
+#0 /home/quyenman/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/quyenman/public_html/wp-blog-header.php(19): require_once('/home/quyenman/...')
+#2 /home/quyenman/public_html/index.php(17): require('/home/quyenman/...')
+#3 {main}
+  thrown in /home/quyenman/public_html/wp-content/themes/flatsome/nap-the.php on line 77
+

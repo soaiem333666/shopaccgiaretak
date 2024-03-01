@@ -1,0 +1,960 @@
+{
+    "dup_type": "lite",
+    "created": "2023-03-14 07:17:38",
+    "version_dup": "1.5.2.1",
+    "version_wp": "6.1.1",
+    "version_db": "8.0.32",
+    "version_php": "7.4.33",
+    "version_os": "Linux",
+    "blogname": "Genshinshopacc",
+    "exportOnlyDB": 0,
+    "secure_on": false,
+    "secure_pass": "$2a$08$YOpoLYddd\/uRNR0.JaVtQOAXkMUYtGxgXWx48UwaD\/U6isr7NaA2O",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "dbpass": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "genshinshopacc.com",
+            "path": "\/",
+            "blogname": "Genshinshopacc",
+            "blog_prefix": "wp_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "12",
+                    "user_login": "admin",
+                    "id": "12"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/genshinshopacc.com",
+            "fullSiteUrl": "https:\/\/genshinshopacc.com",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home\/quyenman\/public_html\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home\/quyenman\/public_html\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/genshinshopacc.com\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "dbInfo": {
+        "buildMode": "PHP",
+        "charSetList": [
+            "utf8mb4",
+            "latin1"
+        ],
+        "collationList": [
+            "latin1_swedish_ci",
+            "utf8mb4_0900_ai_ci",
+            "utf8mb4_unicode_520_ci"
+        ],
+        "engineList": [
+            "MyISAM",
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "quyenman_db",
+        "tablesBaseCount": 71,
+        "tablesFinalCount": 71,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 21779,
+        "tablesSizeOnDisk": 8547697,
+        "tablesList": {
+            "wp_actionscheduler_actions": {
+                "inaccurateRows": 100,
+                "insertedRows": 100,
+                "size": 58280
+            },
+            "wp_actionscheduler_claims": {
+                "inaccurateRows": 15017,
+                "insertedRows": 15017,
+                "size": 600396
+            },
+            "wp_actionscheduler_groups": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 9420
+            },
+            "wp_actionscheduler_logs": {
+                "inaccurateRows": 298,
+                "insertedRows": 298,
+                "size": 38136
+            },
+            "wp_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp_comments": {
+                "inaccurateRows": 48,
+                "insertedRows": 48,
+                "size": 17468
+            },
+            "wp_duplicator_packages": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp_easywpsmtp_debug_events": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 16384
+            },
+            "wp_easywpsmtp_tasks_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_mailchimp_carts": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 2048
+            },
+            "wp_mailchimp_jobs": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_options": {
+                "inaccurateRows": 1110,
+                "insertedRows": 1111,
+                "size": 6454988
+            },
+            "wp_postmeta": {
+                "inaccurateRows": 2416,
+                "insertedRows": 2424,
+                "size": 317036
+            },
+            "wp_posts": {
+                "inaccurateRows": 335,
+                "insertedRows": 339,
+                "size": 399908
+            },
+            "wp_revslider_css": {
+                "inaccurateRows": 109,
+                "insertedRows": 109,
+                "size": 95152
+            },
+            "wp_revslider_css_bkp": {
+                "inaccurateRows": 47,
+                "insertedRows": 47,
+                "size": 15992
+            },
+            "wp_revslider_layer_animations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_revslider_layer_animations_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_revslider_navigations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_revslider_navigations_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_revslider_sliders": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_revslider_sliders_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_revslider_slides": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_revslider_slides_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_revslider_static_slides": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_revslider_static_slides_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_term_relationships": {
+                "inaccurateRows": 68,
+                "insertedRows": 68,
+                "size": 6548
+            },
+            "wp_term_taxonomy": {
+                "inaccurateRows": 52,
+                "insertedRows": 52,
+                "size": 10980
+            },
+            "wp_termmeta": {
+                "inaccurateRows": 30,
+                "insertedRows": 30,
+                "size": 19456
+            },
+            "wp_terms": {
+                "inaccurateRows": 52,
+                "insertedRows": 52,
+                "size": 18256
+            },
+            "wp_usermeta": {
+                "inaccurateRows": 269,
+                "insertedRows": 269,
+                "size": 37232
+            },
+            "wp_users": {
+                "inaccurateRows": 10,
+                "insertedRows": 10,
+                "size": 9468
+            },
+            "wp_wc_admin_note_actions": {
+                "inaccurateRows": 21,
+                "insertedRows": 21,
+                "size": 6008
+            },
+            "wp_wc_admin_notes": {
+                "inaccurateRows": 16,
+                "insertedRows": 16,
+                "size": 6804
+            },
+            "wp_wc_category_lookup": {
+                "inaccurateRows": 10,
+                "insertedRows": 10,
+                "size": 2218
+            },
+            "wp_wc_customer_lookup": {
+                "inaccurateRows": 21,
+                "insertedRows": 21,
+                "size": 7500
+            },
+            "wp_wc_download_log": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 4356
+            },
+            "wp_wc_order_coupon_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_wc_order_product_lookup": {
+                "inaccurateRows": 37,
+                "insertedRows": 37,
+                "size": 9770
+            },
+            "wp_wc_order_stats": {
+                "inaccurateRows": 32,
+                "insertedRows": 32,
+                "size": 13400
+            },
+            "wp_wc_order_tax_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_wc_product_attributes_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wc_product_download_directories": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 32768
+            },
+            "wp_wc_product_meta_lookup": {
+                "inaccurateRows": 20,
+                "insertedRows": 20,
+                "size": 11636
+            },
+            "wp_wc_rate_limits": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wc_reserved_stock": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_wc_tax_rate_classes": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 9288
+            },
+            "wp_wc_webhooks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_woo_wallet_transaction_meta": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 4200
+            },
+            "wp_woo_wallet_transactions": {
+                "inaccurateRows": 44,
+                "insertedRows": 44,
+                "size": 6436
+            },
+            "wp_woocommerce_api_keys": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 2048
+            },
+            "wp_woocommerce_attribute_taxonomies": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 3228
+            },
+            "wp_woocommerce_downloadable_product_permissions": {
+                "inaccurateRows": 14,
+                "insertedRows": 14,
+                "size": 7968
+            },
+            "wp_woocommerce_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_woocommerce_order_itemmeta": {
+                "inaccurateRows": 408,
+                "insertedRows": 408,
+                "size": 36908
+            },
+            "wp_woocommerce_order_items": {
+                "inaccurateRows": 44,
+                "insertedRows": 44,
+                "size": 5484
+            },
+            "wp_woocommerce_payment_tokenmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_woocommerce_payment_tokens": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_woocommerce_sessions": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 22500
+            },
+            "wp_woocommerce_shipping_zone_locations": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 4192
+            },
+            "wp_woocommerce_shipping_zone_methods": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 2304
+            },
+            "wp_woocommerce_shipping_zones": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 2112
+            },
+            "wp_woocommerce_tax_rate_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_woocommerce_tax_rates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_wpmailsmtp_debug_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wp_wpmailsmtp_tasks_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_yith_wcwl": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 3261
+            },
+            "wp_yith_wcwl_lists": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 11528
+            },
+            "wp_yoast_seo_links": {
+                "inaccurateRows": 85,
+                "insertedRows": 85,
+                "size": 11164
+            },
+            "wp_yoast_seo_meta": {
+                "inaccurateRows": 1020,
+                "insertedRows": 1020,
+                "size": 35772
+            }
+        },
+        "varLowerCaseTables": "0",
+        "dbEngine": "MySQL",
+        "version": "8.0.32",
+        "versionComment": "MySQL Community Server - GPL",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 2,
+        "packageName": "20230314_genshinshopacc",
+        "packageHash": "25a78ac-14071738",
+        "secondaryHash": "eb4d9d1-14071738"
+    },
+    "fileInfo": {
+        "dirCount": 2022,
+        "fileCount": 12547,
+        "size": 92642234
+    },
+    "wpInfo": {
+        "version": "6.1.1",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home\/quyenman\/public_html",
+        "targetPaths": [
+            "\/home\/quyenman\/public_html"
+        ],
+        "adminUsers": [
+            {
+                "ID": "12",
+                "user_login": "admin",
+                "id": "12"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home\/quyenman\/public_html\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8mb4",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "%[.NI%.h(Hu2}~joIT^GKkoJOK:wnJJjQq~6d] R<Pjt^bAKmD~^SuS2rx3\/z*n6",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "d)u 1_2%axPT{ 2{%CCSHc|[w[AP+URYOKZsP&5-ETQCk)u,~Hvu@X!7Uc2A%%&e",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "W>4 fq+F@;JsNT%~sJLa~t,UKJQ&9t~a_{nmm<ov>2(SMw170 :hR84G|\/\/Z})YP",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "8I&ST.:`\/1vNdkL}pK[7B)_<GQL@_{I<qlz_YyF&O;[aqKu38VT@V):%4QqtnT}&",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "qd;O@z 8zkp+;J]!Ob< +Dd*i*e:G>>Av*-cSFS78o=ZT\/x$\/r2ov..k9Zx!ZGE7",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": ">w68T=OmAZ#<1]>!%wLvC)^t]HE Xe<tMpe!3IO=+zM&VzK{ybf5PLtX?gk4gid&",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "Hg%2R`Rr5cHL*2Ffng i^eYN&E(w6=1`0=;f5ojQzoX:.]J_N`Tie$GBzkl!Tm<&",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "}@7xHoC6 9THKx+uF_5;`u1?>q0-)^iWw#JvFq#>][JD^s,f5LQSxzY&0xULMN\/r",
+                    "inWpConfig": true
+                },
+                "WP_SITEURL": {
+                    "value": "https:\/\/genshinshopacc.com\/",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home\/quyenman\/public_html\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/genshinshopacc.com\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home\/quyenman\/public_html\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/genshinshopacc.com\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "512M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home\/quyenman\/public_html\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home\/quyenman\/public_html\/wp-content\/themes\/flatsome",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home\/quyenman\/public_html\/wp-content\/themes\/LongAnWeb",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home\/quyenman\/public_html\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/genshinshopacc.com\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/genshinshopacc.com",
+                "homeUrl": "https:\/\/genshinshopacc.com",
+                "loginUrl": "https:\/\/genshinshopacc.com\/wp-login.php",
+                "contentUrl": "https:\/\/genshinshopacc.com\/wp-content",
+                "uploadBaseUrl": "https:\/\/genshinshopacc.com\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/genshinshopacc.com\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/genshinshopacc.com\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/genshinshopacc.com\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home\/quyenman\/public_html",
+                    "abs": "\/home\/quyenman\/public_html",
+                    "wpconfig": "\/home\/quyenman\/public_html",
+                    "wpcontent": "\/home\/quyenman\/public_html\/wp-content",
+                    "uploads": "\/home\/quyenman\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/quyenman\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/quyenman\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/quyenman\/public_html\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home\/quyenman\/public_html",
+                    "abs": "\/home\/quyenman\/public_html",
+                    "wpconfig": "\/home\/quyenman\/public_html",
+                    "wpcontent": "\/home\/quyenman\/public_html\/wp-content",
+                    "uploads": "\/home\/quyenman\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/quyenman\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/quyenman\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/quyenman\/public_html\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "advanced-custom-fields-pro\/acf.php": {
+                "slug": "advanced-custom-fields-pro\/acf.php",
+                "name": "Advanced Custom Fields PRO",
+                "version": "5.10.2",
+                "pluginURI": "https:\/\/www.advancedcustomfields.com",
+                "author": "Delicious Brains",
+                "authorURI": "https:\/\/www.advancedcustomfields.com",
+                "description": "Customize WordPress with powerful, professional and intuitive fields.",
+                "title": "Advanced Custom Fields PRO",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "classic-editor\/classic-editor.php": {
+                "slug": "classic-editor\/classic-editor.php",
+                "name": "Classic Editor",
+                "version": "1.6.2",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/classic-editor\/",
+                "author": "WordPress Contributors",
+                "authorURI": "https:\/\/github.com\/WordPress\/classic-editor\/",
+                "description": "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen.",
+                "title": "Classic Editor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "classic-widgets\/classic-widgets.php": {
+                "slug": "classic-widgets\/classic-widgets.php",
+                "name": "Classic Widgets",
+                "version": "0.3",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/classic-widgets\/",
+                "author": "WordPress Contributors",
+                "authorURI": "https:\/\/github.com\/WordPress\/classic-widgets\/",
+                "description": "Enables the classic widgets settings screens in Appearance - Widgets and the Customizer. Disables the block editor from managing widgets.",
+                "title": "Classic Widgets",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "clear-cache-for-widgets\/clear-cache-for-widgets.php": {
+                "slug": "clear-cache-for-widgets\/clear-cache-for-widgets.php",
+                "name": "Clear Cache For Me",
+                "version": "1.8",
+                "pluginURI": "https:\/\/webheadcoder.com\/clear-cache-for-me\/",
+                "author": "Webhead LLC",
+                "authorURI": "https:\/\/webheadcoder.com",
+                "description": "Purges all cache on WPEngine, W3 Total Cache, WP Super Cache, WP Fastest Cache when updating widgets, menus, settings.  Forces a browser to reload a theme's CSS and JS files.",
+                "title": "Clear Cache For Me",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "contact-form-7\/wp-contact-form-7.php": {
+                "slug": "contact-form-7\/wp-contact-form-7.php",
+                "name": "Contact Form 7",
+                "version": "5.7.4",
+                "pluginURI": "https:\/\/contactform7.com\/",
+                "author": "Takayuki Miyoshi",
+                "authorURI": "https:\/\/ideasilo.wordpress.com\/",
+                "description": "Just another contact form plugin. Simple but flexible.",
+                "title": "Contact Form 7",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "contact-form-7-simple-recaptcha\/contact-form-7-simple-recaptcha.php": {
+                "slug": "contact-form-7-simple-recaptcha\/contact-form-7-simple-recaptcha.php",
+                "name": "Contact Form 7 Captcha",
+                "version": "0.1.2",
+                "pluginURI": "",
+                "author": "247wd",
+                "authorURI": "",
+                "description": "Add No CAPTCHA reCAPTCHA to Contact Form 7 using [cf7sr-simple-recaptcha] shortcode",
+                "title": "Contact Form 7 Captcha",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.2.1",
+                "pluginURI": "https:\/\/snapcreek.com\/duplicator\/duplicator-free\/",
+                "author": "Snap Creek",
+                "authorURI": "http:\/\/www.snapcreek.com\/duplicator\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "easy-wp-smtp\/easy-wp-smtp.php": {
+                "slug": "easy-wp-smtp\/easy-wp-smtp.php",
+                "name": "Easy WP SMTP",
+                "version": "2.0.1",
+                "pluginURI": "https:\/\/easywpsmtp.com\/",
+                "author": "Easy WP SMTP",
+                "authorURI": "https:\/\/easywpsmtp.com\/",
+                "description": "Fix your WordPress email delivery by sending them via a transactional email provider or an SMTP server.",
+                "title": "Easy WP SMTP",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "loco-translate\/loco.php": {
+                "slug": "loco-translate\/loco.php",
+                "name": "Loco Translate",
+                "version": "2.6.3",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/loco-translate\/",
+                "author": "Tim Whitlock",
+                "authorURI": "https:\/\/localise.biz\/wordpress\/plugin",
+                "description": "Translate themes and plugins directly in WordPress",
+                "title": "Loco Translate",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "menu-icons\/menu-icons.php": {
+                "slug": "menu-icons\/menu-icons.php",
+                "name": "Menu Icons",
+                "version": "0.13.4",
+                "pluginURI": "https:\/\/github.com\/Codeinwp\/wp-menu-icons",
+                "author": "ThemeIsle",
+                "authorURI": "https:\/\/themeisle.com",
+                "description": "Spice up your navigation menus with pretty icons, easily.",
+                "title": "Menu Icons",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "my-payment-gateway\/my-payment-gateway.php": {
+                "slug": "my-payment-gateway\/my-payment-gateway.php",
+                "name": "My Payment Gateway",
+                "version": "1.0.0",
+                "pluginURI": "",
+                "author": "",
+                "authorURI": "",
+                "description": "A custom payment gateway plugin for WordPress",
+                "title": "My Payment Gateway",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "shortcodes-ultimate\/shortcodes-ultimate.php": {
+                "slug": "shortcodes-ultimate\/shortcodes-ultimate.php",
+                "name": "Shortcodes Ultimate",
+                "version": "5.12.8",
+                "pluginURI": "https:\/\/getshortcodes.com\/",
+                "author": "Vova Anokhin",
+                "authorURI": "https:\/\/getshortcodes.com\/",
+                "description": "A comprehensive collection of visual components for WordPress",
+                "title": "Shortcodes Ultimate",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "string-locator\/string-locator.php": {
+                "slug": "string-locator\/string-locator.php",
+                "name": "String Locator",
+                "version": "2.6.1",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/string-locator\/",
+                "author": "InstaWP",
+                "authorURI": "https:\/\/instawp.com\/",
+                "description": "Scan through theme and plugin files looking for text strings",
+                "title": "String Locator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woo-wallet\/woo-wallet.php": {
+                "slug": "woo-wallet\/woo-wallet.php",
+                "name": "TeraWallet",
+                "version": "1.4.6",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/woo-wallet\/",
+                "author": "StandaloneTech",
+                "authorURI": "https:\/\/standalonetech.com\/",
+                "description": "The leading wallet plugin for WooCommerce with partial payment, refunds, cashbacks and what not!",
+                "title": "TeraWallet",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce\/woocommerce.php": {
+                "slug": "woocommerce\/woocommerce.php",
+                "name": "WooCommerce",
+                "version": "7.4.1",
+                "pluginURI": "https:\/\/woocommerce.com\/",
+                "author": "Automattic",
+                "authorURI": "https:\/\/woocommerce.com",
+                "description": "An eCommerce toolkit that helps you sell anything. Beautifully.",
+                "title": "WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "insert-headers-and-footers\/ihaf.php": {
+                "slug": "insert-headers-and-footers\/ihaf.php",
+                "name": "WPCode Lite",
+                "version": "2.0.8.1",
+                "pluginURI": "https:\/\/www.wpcode.com\/",
+                "author": "WPCode",
+                "authorURI": "https:\/\/www.wpcode.com\/",
+                "description": "Easily add code snippets in WordPress. Insert scripts to the header and footer, add PHP code snippets with conditional logic, insert ads pixel, custom content, and more.",
+                "title": "WPCode Lite",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "advanced-cache.php": {
+                "slug": "advanced-cache.php",
+                "name": "advanced-cache.php",
+                "version": "",
+                "pluginURI": "",
+                "author": "",
+                "authorURI": "",
+                "description": "",
+                "title": "",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": true
+            }
+        },
+        "themes": {
+            "LongAnWeb": {
+                "slug": "LongAnWeb",
+                "themeName": "LongAnWeb",
+                "version": "3.11",
+                "themeURI": "",
+                "parentTheme": "flatsome",
+                "template": "flatsome",
+                "stylesheet": "LongAnWeb",
+                "description": "",
+                "author": "LongAnWeb",
+                "authorURI": "",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "flatsome": {
+                "slug": "flatsome",
+                "themeName": "Flatsome",
+                "version": "3.12.2",
+                "themeURI": "http:\/\/flatsome.uxthemes.com\/",
+                "parentTheme": false,
+                "template": "flatsome",
+                "stylesheet": "flatsome",
+                "description": "Multi-Purpose Responsive WooCommerce Theme",
+                "author": "UX-Themes",
+                "authorURI": "http:\/\/www.uxthemes.com\/",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "Genshinshopacc"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20230314_genshinshopacc_25a78acd20fdc40f1890_20230314071738_installer-backup.php",
+    "package_name": "20230314_genshinshopacc_25a78acd20fdc40f1890_20230314071738_archive.zip",
+    "package_hash": "25a78ac-14071738",
+    "package_notes": ""
+}

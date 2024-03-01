@@ -1,0 +1,135 @@
+2023-03-08T07:29:56+00:00 CRITICAL Cannot redeclare display_wallet_balance() (previously declared in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php:385) in /Applications/MAMP/htdocs/game/wp-content/themes/flatsome/topup.php on line 8
+
+2023-03-08T08:52:24+00:00 CRITICAL Uncaught Error: Call to undefined function WC_Wallet() in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php:389
+Stack trace:
+#0 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(355): user_transactions_shortcode('', '', 'user_transactio...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(user_t...', 'do_shortcode_ta...', '[user_transacti...')
+#3 /Applications/MAMP/htdocs/game/wp-content/themes/flatsome/inc/helpers/helpers-shortcode.php(203): do_shortcode('[user_transacti...')
+#4 /Applications/MAMP/htdocs/game/wp-includes/class-wp-hook.php(308): flatsome_contentfix('[user_transacti...')
+#5 /Applications/MAMP/htdocs/game/wp-includes/plugin.php(205): WP_Hook->apply_filters('[user_transacti...', Array)
+#6 /Applications/MAMP/htdocs/game/wp-includes/post-template.php(255): apply_filters('the_content', '[user_transacti...')
+#7 /Applications/MAMP/htdocs/game/wp-content/themes/flatsome/p in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php on line 389
+
+2023-03-08T08:53:18+00:00 CRITICAL Uncaught Error: Call to undefined function WC_Wallet() in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php:389
+Stack trace:
+#0 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(355): user_transactions_shortcode('', '', 'user_transactio...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(user_t...', 'do_shortcode_ta...', '[user_transacti...')
+#3 /Applications/MAMP/htdocs/game/wp-content/themes/flatsome/inc/helpers/helpers-shortcode.php(203): do_shortcode('[user_transacti...')
+#4 /Applications/MAMP/htdocs/game/wp-includes/class-wp-hook.php(308): flatsome_contentfix('[user_transacti...')
+#5 /Applications/MAMP/htdocs/game/wp-includes/plugin.php(205): WP_Hook->apply_filters('[user_transacti...', Array)
+#6 /Applications/MAMP/htdocs/game/wp-includes/post-template.php(255): apply_filters('the_content', '[user_transacti...')
+#7 /Applications/MAMP/htdocs/game/wp-content/themes/flatsome/p in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php on line 389
+
+2023-03-08T08:57:07+00:00 CRITICAL syntax error, unexpected ';' in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php on line 406
+
+2023-03-08T09:01:31+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php on line 391 and exactly 2 expected in /Applications/MAMP/htdocs/game/wp-includes/plugin.php:173
+Stack trace:
+#0 /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php(391): apply_filters('woo_wallet_tran...')
+#1 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(355): wallet_transactions_shortcode('', '', 'wallet_credit_t...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(wallet...', 'do_shortcode_ta...', '[wallet_credit_...')
+#4 /Applications/MAMP/htdocs/game/wp-content/themes/flatsome/inc/helpers/helpers-shortcode.php(203): do_shortcode('[wallet_credit_...')
+#5 /Applications/MAMP/htdocs/game/wp-includes/class-wp-hook.php(308): flatsome_contentfix('[wallet_credit_...')
+#6 /Applications/MAMP/htdocs/game/wp-includes/plugin.php in /Applications/MAMP/htdocs/game/wp-includes/plugin.php on line 173
+
+2023-03-08T09:06:15+00:00 CRITICAL Uncaught Error: Call to undefined function get_woo_wallet_currency() in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php:419
+Stack trace:
+#0 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(355): wallet_transactions_shortcode('', '', 'wallet_credit_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(wallet...', 'do_shortcode_ta...', '[wallet_credit_...')
+#3 /Applications/MAMP/htdocs/game/wp-content/themes/flatsome/inc/helpers/helpers-shortcode.php(203): do_shortcode('[wallet_credit_...')
+#4 /Applications/MAMP/htdocs/game/wp-includes/class-wp-hook.php(308): flatsome_contentfix('[wallet_credit_...')
+#5 /Applications/MAMP/htdocs/game/wp-includes/plugin.php(205): WP_Hook->apply_filters('[wallet_credit_...', Array)
+#6 /Applications/MAMP/htdocs/game/wp-includes/post-template.php(255): apply_filters('the_content', '[wallet_credit_...')
+#7 /Applications/MAMP/htdocs/game/wp-content/t in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php on line 419
+
+2023-03-08T09:06:26+00:00 CRITICAL Uncaught Error: Call to undefined function get_woo_wallet_currency() in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php:419
+Stack trace:
+#0 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(355): wallet_transactions_shortcode('', '', 'wallet_credit_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(wallet...', 'do_shortcode_ta...', '[wallet_credit_...')
+#3 /Applications/MAMP/htdocs/game/wp-content/themes/flatsome/inc/helpers/helpers-shortcode.php(203): do_shortcode('[wallet_credit_...')
+#4 /Applications/MAMP/htdocs/game/wp-includes/class-wp-hook.php(308): flatsome_contentfix('[wallet_credit_...')
+#5 /Applications/MAMP/htdocs/game/wp-includes/plugin.php(205): WP_Hook->apply_filters('[wallet_credit_...', Array)
+#6 /Applications/MAMP/htdocs/game/wp-includes/post-template.php(255): apply_filters('the_content', '[wallet_credit_...')
+#7 /Applications/MAMP/htdocs/game/wp-content/t in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php on line 419
+
+2023-03-08T09:06:44+00:00 CRITICAL Uncaught Error: Call to undefined function get_woo_wallet_currency() in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php:419
+Stack trace:
+#0 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(355): wallet_transactions_shortcode('', '', 'wallet_credit_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(wallet...', 'do_shortcode_ta...', '[wallet_credit_...')
+#3 /Applications/MAMP/htdocs/game/wp-content/themes/flatsome/inc/helpers/helpers-shortcode.php(203): do_shortcode('[wallet_credit_...')
+#4 /Applications/MAMP/htdocs/game/wp-includes/class-wp-hook.php(308): flatsome_contentfix('[wallet_credit_...')
+#5 /Applications/MAMP/htdocs/game/wp-includes/plugin.php(205): WP_Hook->apply_filters('[wallet_credit_...', Array)
+#6 /Applications/MAMP/htdocs/game/wp-includes/post-template.php(255): apply_filters('the_content', '[wallet_credit_...')
+#7 /Applications/MAMP/htdocs/game/wp-content/t in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php on line 419
+
+2023-03-08T09:07:58+00:00 CRITICAL Uncaught Error: Call to undefined function get_woo_wallet_currency() in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php:419
+Stack trace:
+#0 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(355): wallet_transactions_shortcode('', '', 'wallet_credit_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(wallet...', 'do_shortcode_ta...', '[wallet_credit_...')
+#3 /Applications/MAMP/htdocs/game/wp-content/themes/flatsome/inc/helpers/helpers-shortcode.php(203): do_shortcode('[wallet_credit_...')
+#4 /Applications/MAMP/htdocs/game/wp-includes/class-wp-hook.php(308): flatsome_contentfix('[wallet_credit_...')
+#5 /Applications/MAMP/htdocs/game/wp-includes/plugin.php(205): WP_Hook->apply_filters('[wallet_credit_...', Array)
+#6 /Applications/MAMP/htdocs/game/wp-includes/post-template.php(255): apply_filters('the_content', '[wallet_credit_...')
+#7 /Applications/MAMP/htdocs/game/wp-content/t in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php on line 419
+
+2023-03-08T09:10:19+00:00 CRITICAL Uncaught Error: Call to undefined function get_woo_wallet_currency() in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php:419
+Stack trace:
+#0 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(355): wallet_transactions_shortcode('', '', 'wallet_credit_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(wallet...', 'do_shortcode_ta...', '[wallet_credit_...')
+#3 /Applications/MAMP/htdocs/game/wp-content/themes/flatsome/inc/helpers/helpers-shortcode.php(203): do_shortcode('[wallet_credit_...')
+#4 /Applications/MAMP/htdocs/game/wp-includes/class-wp-hook.php(308): flatsome_contentfix('[wallet_credit_...')
+#5 /Applications/MAMP/htdocs/game/wp-includes/plugin.php(205): WP_Hook->apply_filters('[wallet_credit_...', Array)
+#6 /Applications/MAMP/htdocs/game/wp-includes/post-template.php(255): apply_filters('the_content', '[wallet_credit_...')
+#7 /Applications/MAMP/htdocs/game/wp-content/t in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php on line 419
+
+2023-03-08T09:23:20+00:00 CRITICAL Uncaught Error: Call to undefined function get_woo_wallet_currency() in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php:402
+Stack trace:
+#0 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(355): wallet_transactions_shortcode('', '', 'wallet_credit_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(wallet...', 'do_shortcode_ta...', '[wallet_credit_...')
+#3 /Applications/MAMP/htdocs/game/wp-content/themes/flatsome/inc/helpers/helpers-shortcode.php(203): do_shortcode('[wallet_credit_...')
+#4 /Applications/MAMP/htdocs/game/wp-includes/class-wp-hook.php(308): flatsome_contentfix('[wallet_credit_...')
+#5 /Applications/MAMP/htdocs/game/wp-includes/plugin.php(205): WP_Hook->apply_filters('[wallet_credit_...', Array)
+#6 /Applications/MAMP/htdocs/game/wp-includes/post-template.php(255): apply_filters('the_content', '[wallet_credit_...')
+#7 /Applications/MAMP/htdocs/game/wp-content/t in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php on line 402
+
+2023-03-08T09:26:44+00:00 CRITICAL Uncaught Error: Call to undefined function get_woo_wallet_currency() in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php:404
+Stack trace:
+#0 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(355): wallet_transactions_shortcode('', '', 'wallet_credit_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(wallet...', 'do_shortcode_ta...', '[wallet_credit_...')
+#3 /Applications/MAMP/htdocs/game/wp-content/themes/flatsome/inc/helpers/helpers-shortcode.php(203): do_shortcode('[wallet_credit_...')
+#4 /Applications/MAMP/htdocs/game/wp-includes/class-wp-hook.php(308): flatsome_contentfix('[wallet_credit_...')
+#5 /Applications/MAMP/htdocs/game/wp-includes/plugin.php(205): WP_Hook->apply_filters('[wallet_credit_...', Array)
+#6 /Applications/MAMP/htdocs/game/wp-includes/post-template.php(255): apply_filters('the_content', '[wallet_credit_...')
+#7 /Applications/MAMP/htdocs/game/wp-content/t in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php on line 404
+
+2023-03-08T09:26:50+00:00 CRITICAL Uncaught Error: Call to undefined function get_woo_wallet_currency() in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php:404
+Stack trace:
+#0 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(355): wallet_transactions_shortcode('', '', 'wallet_credit_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(wallet...', 'do_shortcode_ta...', '[wallet_credit_...')
+#3 /Applications/MAMP/htdocs/game/wp-content/themes/flatsome/inc/helpers/helpers-shortcode.php(203): do_shortcode('[wallet_credit_...')
+#4 /Applications/MAMP/htdocs/game/wp-includes/class-wp-hook.php(308): flatsome_contentfix('[wallet_credit_...')
+#5 /Applications/MAMP/htdocs/game/wp-includes/plugin.php(205): WP_Hook->apply_filters('[wallet_credit_...', Array)
+#6 /Applications/MAMP/htdocs/game/wp-includes/post-template.php(255): apply_filters('the_content', '[wallet_credit_...')
+#7 /Applications/MAMP/htdocs/game/wp-content/t in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php on line 404
+
+2023-03-08T09:29:34+00:00 CRITICAL Uncaught Error: Call to undefined function get_woo_wallet_currency() in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php:404
+Stack trace:
+#0 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(355): wallet_transactions_shortcode('', '', 'wallet_credit_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Applications/MAMP/htdocs/game/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(wallet...', 'do_shortcode_ta...', '[wallet_credit_...')
+#3 /Applications/MAMP/htdocs/game/wp-content/themes/flatsome/inc/helpers/helpers-shortcode.php(203): do_shortcode('[wallet_credit_...')
+#4 /Applications/MAMP/htdocs/game/wp-includes/class-wp-hook.php(308): flatsome_contentfix('[wallet_credit_...')
+#5 /Applications/MAMP/htdocs/game/wp-includes/plugin.php(205): WP_Hook->apply_filters('[wallet_credit_...', Array)
+#6 /Applications/MAMP/htdocs/game/wp-includes/post-template.php(255): apply_filters('the_content', '[wallet_credit_...')
+#7 /Applications/MAMP/htdocs/game/wp-content/t in /Applications/MAMP/htdocs/game/wp-content/themes/LongAnWeb/functions.php on line 404
+
